@@ -11,4 +11,5 @@
     - 컨트롤러의 메서드를 실행한다. -> 데이터를 모델에 넣는다. -> view name을 반환한다. -> login 
     - 적절한 View를 찾아낸다 -> /WEB-INF/jsp/login/jsp 
     - View를 실행한다. 
-
+- 요청이 있을 때, 메서드를 확인해서 특정 메서드에만 동작하도록 만드는 방법 : 
+  - @RequestMapping(value="login", method = RequestMethod.GET) -> 이렇게하면 GET이라는 메서드에만 동작하는 컨트롤러 메서드가 됨.
