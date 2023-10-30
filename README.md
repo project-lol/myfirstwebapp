@@ -1,3 +1,5 @@
+> https://github.com/in28minutes/master-spring-and-spring-boot/blob/main/11-web-application/Step19.md
+
 - 프론트 컨트롤러 
   - 서브렛으로 요청을 처리하다보니, 공통적으로 처리해야하는 요청들도 있었다.(인증같은것들) 이런 공통적인 요청을 한번에 처리할 수 있도록 만들어주기 위해서, 사용하게 되었다.
 - 디스패처 서블릿 
